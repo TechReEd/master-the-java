@@ -1,0 +1,19 @@
+Queries:
+1. Difference and functionalities of System.out.print, System.out.println and System.out.printf
+
+2. What happens when scanner is closed multiple times:
+        scanner.close();
+        scanner.close();
+
+    ANS: No warning/issues with multiple close
+
+3. What happens when we try to perform as below:
+     scanner.close();
+     int a2 = scanner.nextInt();
+
+    ANS: Exception is thrown
+      java.lang.IllegalStateException: Scanner closed
+      at java.util.Scanner.ensureOpen(Unknown Source)
+      at java.util.Scanner.next(Unknown Source)
+      at java.util.Scanner.nextInt(Unknown Source)
+      at java.util.Scanner.nextInt(Unknown Source)

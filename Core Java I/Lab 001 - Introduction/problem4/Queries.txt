@@ -1,0 +1,4 @@
+Queries:
+1. java.util.InputMismatchException: For input string: "4444444444444444444444444444"
+	at java.util.Scanner.nextInt(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
